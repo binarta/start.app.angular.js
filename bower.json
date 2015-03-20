@@ -1,0 +1,40 @@
+{
+  "name": "binarta.basic.app.angular",
+  "main": "./src/basic.app.js",
+  "dependencies": {
+    "angular": "1.3.*",
+    "angular-route": "1.3.*",
+    "angular-sanitize": "1.3.*",
+    "angular-resource": "1.3.*",
+    "angular-cookies": "1.3.*",
+    "angular-touch": "1.3.*",
+    "angular-animate": "1.3.*",
+    "binarta.angularx": "0.*.*",
+    "binarta.i18n.angular": "0.*.*",
+    "binarta.i18n.extension.tinymce.angular": "0.*.*",
+    "binarta.images.angular": "0.*.*",
+    "binarta.imagex.tinymce": "0.*.*",
+    "binarta.checkpoint.angular": "0.*.*",
+    "binarta.contact.us.angular": "0.*.*",
+    "binarta.toggle.edit.mode.angular": "1.*.*",
+    "binarta.cookies.angular": "1.*.*",
+    "binarta.ui.bootstrap.ex.angular": "0.*.*",
+    "binarta.schedulers.angular": "0.*.*",
+    "binarta.autoupdater.angular": "0.*.*",
+    "binarta.clerk.menu.angular": "1.*.*",
+    "binarta.seo.angular": "1.*.*",
+    "binarta.viewport.angular": "0.*.*",
+    "binarta.angularticsx.ga.angular": "0.*.*",
+    "binarta.catalog.angular": "1.*.*",
+    "binarta.search.angular": "0.*.*",
+    "binarta.blog.angular": "1.*.*",
+    "binarta.journal.angular": "0.*.*"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
