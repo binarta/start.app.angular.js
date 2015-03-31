@@ -4,6 +4,7 @@ angular.module('basic.app', [
     'ngAnimate',
     'ngTouch',
     'angularx',
+    'config.gateways',
     'i18n',
     'ui.tinymce',
     'image-management',
