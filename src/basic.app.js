@@ -11,6 +11,7 @@ angular.module('basic.app', [
     'imagex.tinymce',
     'checkpoint',
     'checkpoint.accounts',
+    'checkpoint.templates',
     'contact.us',
     'toggle.edit.mode',
     'cookies',
