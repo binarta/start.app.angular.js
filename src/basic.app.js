@@ -1,6 +1,7 @@
 angular.module('basic.app', [
     'ngRoute',
     'ngSanitize',
+    'ngTouch',
     'angularx',
     'ui.bootstrap.ex',
     'angularticsx.ga',
