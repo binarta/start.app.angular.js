@@ -30,10 +30,6 @@
     "binarta.search.angular": "0.*.*",
     "binarta.blog.angular": "1.*.*"
   },
-  "resolutions": {
-    "angular-bootstrap": "v0.12.0",
-    "angular": "1.3.*"
-  },
   "ignore": [
     "**/.*",
     "node_modules",
