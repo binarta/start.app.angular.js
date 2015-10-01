@@ -38,6 +38,7 @@
     "catalog": "bower_components/binarta.catalog.angular/src/catalog.js",
     "catalogx.rest": "bower_components/binarta.catalogx.rest.angular/src/catalogx.rest.js",
     "blog": "bower_components/binarta.blog.angular/src/blog.js",
+    "blog.types": "bower_components/binarta.blog.angular/src/blog.types.default.js",
     "blog.templates": "bower_components/binarta.blog.angular/src/blog-unavailable-tpls-bootstrap3.js",
     "browser.info": "bower_components/binarta.browser.info.angular/src/browser.info.js",
     "media": "bower_components/binarta.media.angular/src/media.js",
