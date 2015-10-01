@@ -2,7 +2,7 @@
   "name": "binarta.basic.app.angular",
   "main": [
     "./src/basic.app.js",
-    "./config.json"
+    "./sources.json"
   ],
   "dependencies": {
     "binarta.angularx": "v0.*.*",
