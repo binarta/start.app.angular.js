@@ -35,6 +35,7 @@
     "viewport": "bower_components/binarta.viewport.angular/src/viewport.js",
     "angularticsx.ga": "bower_components/binarta.angularticsx.ga.angular/src/angularticsx.ga.js",
     "search": "bower_components/binarta.search.angular/src/search.js",
+    "search.templates": "bower_components/binarta.search.angular/src/search-tpls-bootstrap3.js",
     "catalog": "bower_components/binarta.catalog.angular/src/catalog.js",
     "catalogx.rest": "bower_components/binarta.catalogx.rest.angular/src/catalogx.rest.js",
     "blog": "bower_components/binarta.blog.angular/src/blog.js",

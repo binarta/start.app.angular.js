@@ -26,6 +26,7 @@ angular.module('basic.app', [
     'catalog',
     'catalog.templates',
     'binarta.search',
+    'search.templates',
     'blog',
     'blog.templates'
 ]).config(['$locationProvider', '$provide', function ($locationProvider, $provide) {
