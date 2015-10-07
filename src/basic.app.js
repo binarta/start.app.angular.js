@@ -43,4 +43,6 @@ angular.module('basic.app', [
 }]).run(['config', 'topicMessageDispatcher', function (config, topicMessageDispatcher) {
     topicMessageDispatcher.firePersistently('config.initialized', config);
     topicMessageDispatcher.firePersistently('app.start', 'ok');
+}]).run(['signInWithTokenService', function SignInWithTokenRunner(signInWithTokenService) {
+    signInWithTokenService();
 }]);
