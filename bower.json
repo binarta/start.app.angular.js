@@ -28,7 +28,8 @@
     "binarta.contact.us.angular": "0.*.*",
     "binarta.catalog.angular": "1.*.*",
     "binarta.search.angular": "0.*.*",
-    "binarta.blog.angular": "1.*.*"
+    "binarta.blog.angular": "1.*.*",
+    "angular-truncate": "*"
   },
   "ignore": [
     "**/.*",

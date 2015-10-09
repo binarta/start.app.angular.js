@@ -28,7 +28,8 @@ angular.module('basic.app', [
     'binarta.search',
     'search.templates',
     'blog',
-    'blog.templates'
+    'blog.templates',
+    'truncate'
 ]).config(['$locationProvider', '$provide', function ($locationProvider, $provide) {
     $provide.decorator('$sniffer', ['$delegate', function ($delegate) {
         $delegate.history = false;
