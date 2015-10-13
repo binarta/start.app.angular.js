@@ -41,7 +41,9 @@ angular.module('basic.app', [
     schedule.forPeriod(function () {
         $cacheFactory.get('i18n').removeAll();
     }, 600000);
-}]).run(['config', 'topicMessageDispatcher', function (config, topicMessageDispatcher) {
+}]).run(['$rootScope', 'config', 'topicMessageDispatcher', function ($rootScope, config, topicMessageDispatcher) {
+    $rootScope.binartaBaseUri = config.binartaBaseUri || 'https://binarta.com/';
+    $rootScope.binartaUpgradeUri = $rootScope.binartaBaseUri + '#!/upgrade/' + config.namespace;
     topicMessageDispatcher.firePersistently('config.initialized', config);
     topicMessageDispatcher.firePersistently('app.start', 'ok');
 }]).run(['signInWithTokenService', function SignInWithTokenRunner(signInWithTokenService) {
