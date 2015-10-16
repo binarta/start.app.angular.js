@@ -2,6 +2,7 @@
   "name": "binarta.basic.app.angular",
   "main": [
     "./src/basic.app.js",
+    "./less/basic-app.less",
     "./sources.json"
   ],
   "dependencies": {
