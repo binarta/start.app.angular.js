@@ -31,6 +31,7 @@
     "cookies": "bower_components/binarta.cookies.angular/src/main/js/cookies.js",
     "journal": "bower_components/binarta.journal.angular/src/journal.js",
     "intercom": "bower_components/binarta.intercom.angular/src/intercom.js",
+    "inspectlet": "bower_components/binarta.inspectlet.angular/src/inspectlet.js",
     "seo": "bower_components/binarta.seo.angular/src/seo.js",
     "viewport": "bower_components/binarta.viewport.angular/src/viewport.js",
     "angularticsx.ga": "bower_components/binarta.angularticsx.ga.angular/src/angularticsx.ga.js",

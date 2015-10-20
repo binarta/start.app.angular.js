@@ -13,6 +13,7 @@ angular.module('basic.app', [
     'clerk.menu',
     'seo',
     'intercom',
+    'inspectlet',
     'i18n',
     'i18n.gateways',
     'ui.tinymce',
