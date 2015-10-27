@@ -49,7 +49,7 @@
     "underscore": "bower_components/underscore/underscore.js",
     "ui-bootstrap-tpls.min": "bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js",
     "pnotify.core": "bower_components/pnotify/src/pnotify.core.js",
-    "pnotify.nonblock": "bower_components/pnotify/src/pnotify.nonblock.js",
+    "pnotify.buttons": "bower_components/pnotify/src/pnotify.buttons.js",
     "angulartics": "bower_components/angulartics/src/angulartics.js",
     "angulartics-ga": "bower_components/angulartics/src/angulartics-ga.js",
     "moment": "bower_components/moment/moment.js",
