@@ -19,6 +19,7 @@ angular.module('basic.app', [
     'ui.tinymce',
     'checkpoint',
     'checkpoint.accounts',
+    'checkpoint.keepalive',
     'checkpoint.templates',
     'image-management',
     'imagex.tinymce',

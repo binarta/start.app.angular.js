@@ -8,6 +8,7 @@
     "notifications.pnotify": "bower_components/binarta.notifications.angular/src/main/plugins/notifications.pnotify.js",
     "checkpoint": "bower_components/binarta.checkpoint.angular/src/main/js/checkpoint.js",
     "checkpoint.accounts": "bower_components/binarta.checkpoint.angular/src/main/js/checkpoint.accounts.js",
+    "checkpoint.keepalive": "bower_components/binarta.checkpoint.angular/src/main/js/checkpoint.keepalive.js",
     "checkpoint.templates": "bower_components/binarta.checkpoint.angular/src/main/js/checkpoint-tpls-bootstrap3.js",
     "images": "bower_components/binarta.images.angular/src/main/js/images.js",
     "image.rest": "bower_components/binarta.images.angular/src/main/js/image.rest.js",
