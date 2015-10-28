@@ -31,7 +31,8 @@
     "binarta.catalog.angular": "1.*.*",
     "binarta.search.angular": "0.*.*",
     "binarta.blog.angular": "1.*.*",
-    "angular-truncate": "*"
+    "angular-truncate": "*",
+    "binarta.application.angular": "0.*.*"
   },
   "ignore": [
     "**/.*",

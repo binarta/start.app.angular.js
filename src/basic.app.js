@@ -31,7 +31,8 @@ angular.module('basic.app', [
     'search.templates',
     'blog',
     'blog.templates',
-    'truncate'
+    'truncate',
+    'application'
 ]).config(['$locationProvider', '$provide', function ($locationProvider, $provide) {
     $provide.decorator('$sniffer', ['$delegate', function ($delegate) {
         $delegate.history = false;

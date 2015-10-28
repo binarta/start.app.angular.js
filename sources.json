@@ -58,7 +58,8 @@
     "jquery.ui.widget": "bower_components/jquery-file-upload/js/vendor/jquery.ui.widget.js",
     "jquery.fileupload": "bower_components/jquery-file-upload/js/jquery.fileupload.js",
     "catalog.templates": "bower_components/binarta.catalog.angular/src/catalog-unavailable-tpls-bootstrap3.js",
-    "angular-truncate": "bower_components/angular-truncate/src/truncate.js"
+    "angular-truncate": "bower_components/angular-truncate/src/truncate.js",
+    "application":"bower_components/binarta.application.angular/src/application.js"
   },
   "blog": {
     "blog.templates": "bower_components/binarta.blog.angular/src/blog-tpls-bootstrap3.js"
