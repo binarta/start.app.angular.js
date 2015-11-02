@@ -2,6 +2,8 @@
   "name": "binarta.basic.app.angular",
   "main": [
     "./src/basic.app.js",
+    "./src/basic-app-tpls-bootstrap3.js",
+    "./metadata-system.json",
     "./less/basic-app.less",
     "./sources.json"
   ],

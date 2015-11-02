@@ -1,6 +1,7 @@
 {
   "default": {
     "basic.app": "bower_components/binarta.basic.app.angular/src/basic.app.js",
+    "basic.app.templates": "bower_components/binarta.basic.app.angular/src/basic-app-tpls-bootstrap3.js",
     "config": "bower_components/binarta.config.angular/src/config.js",
     "config.rest": "bower_components/binarta.config.rest.angular/src/config.rest.js",
     "rest.client": "bower_components/binarta.rest.client.angular/src/main/js/rest.client.js",
