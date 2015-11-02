@@ -68,6 +68,7 @@
     "blog.templates": "bower_components/binarta.blog.angular/src/blog-tpls-bootstrap3.js"
   },
   "catalog": {
+    "basic.app.templates": "bower_components/binarta.basic.app.angular/src/basic-app-catalog-tpls-bootstrap3.js",
     "catalog.templates": "bower_components/binarta.catalog.angular/src/catalog-tpls-bootstrap3.js"
   }
 }
