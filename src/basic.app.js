@@ -34,7 +34,11 @@ angular.module('basic.app', [
     'truncate',
     'application',
     'application.trial'
-]).config(['$locationProvider', '$provide', function ($locationProvider, $provide) {
+]).config(['$routeProvider', '$locationProvider', '$provide', function ($routeProvider, $locationProvider, $provide) {
+    $routeProvider
+        .when('/site-settings', {templateUrl: 'basic-app-site-settings.html'})
+        .when('/:locale/site-settings', {templateUrl: 'basic-app-site-settings.html'});
+
     $provide.decorator('$sniffer', ['$delegate', function ($delegate) {
         $delegate.history = false;
         return $delegate;
