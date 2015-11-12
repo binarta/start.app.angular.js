@@ -34,7 +34,7 @@ angular.module('basic.app', [
     'truncate',
     'application',
     'application.trial'
-]).config(['$routeProvider', '$locationProvider', '$provide', '$compileProvider', 'config', function ($routeProvider, $locationProvider, $provide, cp, config) {
+]).config(['$routeProvider', '$locationProvider', '$provide', '$compileProvider', function ($routeProvider, $locationProvider, $provide, $compileProvider) {
     $routeProvider
         .when('/site-settings', {templateUrl: 'basic-app-site-settings.html'})
         .when('/:locale/site-settings', {templateUrl: 'basic-app-site-settings.html'});
@@ -44,7 +44,7 @@ angular.module('basic.app', [
         return $delegate;
     }]);
     $locationProvider.html5Mode(false).hashPrefix('!');
-    cp.debugInfoEnabled(config.debugInfoEnabled || false);
+    $compileProvider.debugInfoEnabled(window.debugInfoEnabled || false);
 }]).run(['schedule', 'autoupdater', '$cacheFactory', function (schedule, autoupdater, $cacheFactory) {
     schedule.forPeriod(autoupdater, 60000);
     schedule.forPeriod(function () {
