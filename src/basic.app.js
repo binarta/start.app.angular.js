@@ -33,7 +33,8 @@ angular.module('basic.app', [
     'blog.templates',
     'truncate',
     'application',
-    'application.trial'
+    'application.trial',
+    'application.pages'
 ]).config(['$routeProvider', '$locationProvider', '$provide', '$compileProvider', function ($routeProvider, $locationProvider, $provide, $compileProvider) {
     $routeProvider
         .when('/site-settings', {templateUrl: 'basic-app-site-settings.html'})

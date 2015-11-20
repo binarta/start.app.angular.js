@@ -62,7 +62,8 @@
     "angular-truncate": "bower_components/angular-truncate/src/truncate.js",
     "application":"bower_components/binarta.application.angular/src/application.js",
     "application.trial":"bower_components/binarta.application.trial.angular/src/application.trial.js",
-    "application.trial.templates":"bower_components/binarta.application.trial.angular/src/application-trial-tpls-bootstrap3.js"
+    "application.trial.templates":"bower_components/binarta.application.trial.angular/src/application-trial-tpls-bootstrap3.js",
+    "application.pages":"bower_components/binarta.application.pages.angular/src/application.pages.js"
   },
   "blog": {
     "blog.templates": "bower_components/binarta.blog.angular/src/blog-tpls-bootstrap3.js"
