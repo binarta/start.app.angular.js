@@ -31,7 +31,6 @@ angular.module('basic.app', [
     'search.templates',
     'blog',
     'blog.templates',
-    'truncate',
     'application',
     'application.trial',
     'application.pages'
