@@ -134,6 +134,20 @@
                 </div>
                 <% } %>
 
+                <% if(shop) { %>
+                <div class="panel panel-default">
+                    <div class="panel-heading" i18n code="site.settings.paypal.title" read-only>
+                        {{::var}}
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-8 col-md-offset-2">
+                                <ng-include src="'shop-setup-paypal-form.html'"></ng-include>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <% } %>
             </div>
         </div>
     </div>

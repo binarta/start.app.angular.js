@@ -71,5 +71,8 @@
   "catalog": {
     "basic.app.templates": "bower_components/binarta.basic.app.angular/src/basic-app-catalog-tpls-bootstrap3.js",
     "catalog.templates": "bower_components/binarta.catalog.angular/src/catalog-tpls-bootstrap3.js"
+  },
+  "paypal": {
+    "basic.app.templates": "bower_components/binarta.basic.app.angular/src/basic-app-shop-tpls-bootstrap3.js"
   }
 }
