@@ -25,7 +25,7 @@
                                       ng-init="bcc.init({key: 'application.email', scope: 'public'})"
                                       ng-submit="bcc.submit(); form.$setPristine();">
                                     <div class="form-group" ng-class="{'has-error': form.$invalid}">
-                                        <label i18n code="site.settings.application.email.label"
+                                        <label i18n code="config.application.email.label"
                                                read-only for="config-application-email">{{::var}}</label>
                                         <input type="email" id="config-application-email" class="form-control"
                                                ng-model="config.value">
@@ -38,7 +38,7 @@
                                             <span ng-show="working"><i class="fa fa-spinner fa-spin fa-fw"></i></span>
                                             {{::var}}
                                         </button>
-                                        <p class="help-block" i18n read-only code="site.settings.application.email.info">
+                                        <p class="help-block" i18n read-only code="config.application.email.info">
                                             <i class="fa fa-info-circle"></i> <span ng-bind-html="::var"></span>
                                         </p>
                                     </div>
