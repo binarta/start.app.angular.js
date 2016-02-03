@@ -36,7 +36,8 @@
     "binarta.application.angular": "0.*.*",
     "binarta.application.trial.angular": "0.*.*",
     "binarta.application.pages.angular": "0.*.*",
-    "binarta.application.brand.angular": "0.*.*"
+    "binarta.application.brand.angular": "0.*.*",
+    "binarta.theme.angular": "0.*.*"
   },
   "ignore": [
     "**/.*",
