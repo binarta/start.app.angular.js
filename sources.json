@@ -12,6 +12,7 @@
     "checkpoint.keepalive": "bower_components/binarta.checkpoint.angular/src/main/js/checkpoint.keepalive.js",
     "checkpoint.templates": "bower_components/binarta.checkpoint.angular/src/main/js/checkpoint-tpls-bootstrap3.js",
     "images": "bower_components/binarta.images.angular/src/main/js/images.js",
+    "images.clerk.templates": "bower_components/binarta.images.angular/src/main/js/images-clerk-tpls-bootstrap3.js",
     "image.rest": "bower_components/binarta.images.angular/src/main/js/image.rest.js",
     "imagex.tinymce": "bower_components/binarta.imagex.tinymce/src/imagex.tinymce.js",
     "i18n": "bower_components/binarta.i18n.angular/src/main/js/i18n.js",
