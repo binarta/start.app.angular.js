@@ -36,7 +36,8 @@ angular.module('basic.app', [
     'application.pages',
     'application.brand',
     'bin.theme',
-    'bin.blocks'
+    'bin.blocks',
+    'bin.share'
 ]).config(['$routeProvider', '$locationProvider', '$provide', '$compileProvider', function ($routeProvider, $locationProvider, $provide, $compileProvider) {
     $routeProvider
         .when('/site-settings', {templateUrl: 'basic-app-site-settings.html'})
