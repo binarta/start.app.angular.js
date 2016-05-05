@@ -48,7 +48,6 @@
     "browser.info": "bower_components/binarta.browser.info.angular/src/browser.info.js",
     "media": "bower_components/binarta.media.angular/src/media.js",
     "bowser": "bower_components/bowser/bowser.js",
-    "underscore": "bower_components/underscore/underscore.js",
     "ui-bootstrap-tpls.min": "bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js",
     "pnotify.core": "bower_components/pnotify/src/pnotify.core.js",
     "pnotify.buttons": "bower_components/pnotify/src/pnotify.buttons.js",
