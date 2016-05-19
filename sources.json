@@ -40,7 +40,6 @@
     "angularticsx.ga": "bower_components/binarta.angularticsx.ga.angular/src/angularticsx.ga.js",
     "search": "bower_components/binarta.search.angular/src/search.js",
     "search.templates": "bower_components/binarta.search.angular/src/search-tpls-bootstrap3.js",
-    "catalog": "bower_components/binarta.catalog.angular/src/catalog.js",
     "catalogx.rest": "bower_components/binarta.catalogx.rest.angular/src/catalogx.rest.js",
     "blog": "bower_components/binarta.blog.angular/src/blog.js",
     "blog.types": "bower_components/binarta.blog.angular/src/blog.types.default.js",
@@ -59,7 +58,6 @@
     "uuid": "bower_components/node-uuid/uuid.js",
     "jquery.ui.widget": "bower_components/jquery-file-upload/js/vendor/jquery.ui.widget.js",
     "jquery.fileupload": "bower_components/jquery-file-upload/js/jquery.fileupload.js",
-    "catalog.templates": "bower_components/binarta.catalog.angular/src/catalog-unavailable-tpls-bootstrap3.js",
     "application":"bower_components/binarta.application.angular/src/application.js",
     "application.trial":"bower_components/binarta.application.trial.angular/src/application.trial.js",
     "application.trial.templates":"bower_components/binarta.application.trial.angular/src/application-trial-tpls-bootstrap3.js",
@@ -74,8 +72,7 @@
     "blog.templates": "bower_components/binarta.blog.angular/src/blog-tpls-bootstrap3.js"
   },
   "catalog": {
-    "basic.app.templates": "bower_components/binarta.basic.app.angular/src/basic-app-catalog-tpls-bootstrap3.js",
-    "catalog.templates": "bower_components/binarta.catalog.angular/src/catalog-tpls-bootstrap3.js"
+    "basic.app.templates": "bower_components/binarta.basic.app.angular/src/basic-app-catalog-tpls-bootstrap3.js"
   },
   "shop": {
     "basic.app.templates": "bower_components/binarta.basic.app.angular/src/basic-app-shop-tpls-bootstrap3.js"
