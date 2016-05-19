@@ -53,6 +53,7 @@
     "pnotify.buttons": "bower_components/pnotify/src/pnotify.buttons.js",
     "angulartics": "bower_components/angulartics/src/angulartics.js",
     "angulartics-ga": "bower_components/angulartics/src/angulartics-ga.js",
+    "momentx": "bower_components/binarta.momentx.angular/src/momentx.js",
     "moment": "bower_components/moment/moment.js",
     "angular-moment": "bower_components/angular-moment/angular-moment.js",
     "uuid": "bower_components/node-uuid/uuid.js",
