@@ -41,9 +41,6 @@
     "search": "bower_components/binarta.search.angular/src/search.js",
     "search.templates": "bower_components/binarta.search.angular/src/search-tpls-bootstrap3.js",
     "catalogx.rest": "bower_components/binarta.catalogx.rest.angular/src/catalogx.rest.js",
-    "blog": "bower_components/binarta.blog.angular/src/blog.js",
-    "blog.types": "bower_components/binarta.blog.angular/src/blog.types.default.js",
-    "blog.templates": "bower_components/binarta.blog.angular/src/blog-unavailable-tpls-bootstrap3.js",
     "browser.info": "bower_components/binarta.browser.info.angular/src/browser.info.js",
     "media": "bower_components/binarta.media.angular/src/media.js",
     "bowser": "bower_components/bowser/bowser.js",
@@ -67,9 +64,6 @@
     "bin.blocks": "bower_components/binarta.blocks.angular/src/blocks.js",
     "bin.blocks.templates": "bower_components/binarta.blocks.angular/src/blocks-tpls-bootstrap3.js",
     "bin.share": "bower_components/binarta.share.angular/src/share.js"
-  },
-  "blog": {
-    "blog.templates": "bower_components/binarta.blog.angular/src/blog-tpls-bootstrap3.js"
   },
   "catalog": {
     "basic.app.templates": "bower_components/binarta.basic.app.angular/src/basic-app-catalog-tpls-bootstrap3.js"
