@@ -23,6 +23,7 @@ angular.module('basic.app', [
     'checkpoint.templates',
     'image-management',
     'imagex.tinymce',
+    'image.carousel',
     'contact.us',
     'bin.media',
     'catalog',

@@ -29,6 +29,7 @@
     "binarta.i18n.extension.tinymce.angular": "0.*.*",
     "binarta.images.angular": "0.*.*",
     "binarta.imagex.tinymce": "1.*.*",
+    "binarta.image.carousel.angular": "1.*.*",
     "binarta.media.angular": "v0.*.*",
     "binarta.contact.us.angular": "0.*.*",
     "binarta.catalog.angular": "1.*.*",
