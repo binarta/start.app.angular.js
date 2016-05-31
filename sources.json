@@ -54,6 +54,7 @@
     "momentx": "bower_components/binarta.momentx.angular/src/momentx.js",
     "moment": "bower_components/moment/moment.js",
     "angular-moment": "bower_components/angular-moment/angular-moment.js",
+    "moment-picker": "bower_components/moment-picker/src/angular-moment-picker.js",
     "uuid": "bower_components/node-uuid/uuid.js",
     "jquery.ui.widget": "bower_components/jquery-file-upload/js/vendor/jquery.ui.widget.js",
     "jquery.fileupload": "bower_components/jquery-file-upload/js/jquery.fileupload.js",
