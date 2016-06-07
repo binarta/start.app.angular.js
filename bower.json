@@ -4,11 +4,9 @@
     "./src/basic.app.js",
     "./src/basic-app-tpls-bootstrap3.js",
     "./metadata-system.json",
-    "./less/basic-app.less",
     "./sources.json"
   ],
   "dependencies": {
-    "binarta.style.guide": "0.*.*",
     "binarta.angularx": "v0.*.*",
     "binarta.ui.bootstrap.ex.angular": "0.*.*",
     "binarta.angularticsx.ga.angular": "0.*.*",
