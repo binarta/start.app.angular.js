@@ -16,6 +16,9 @@ angular.module('basic.app', [
     'checkpoint.accounts',
     'checkpoint.keepalive',
     'checkpoint.templates',
+    'binarta-checkpointjs-recaptcha-angular1',
+    'binarta-checkpointjs-tpls-angular1',
+    'binarta-gateways-angular1',
     'application'
 ]).config(['$routeProvider', '$locationProvider', '$provide', '$compileProvider', function ($routeProvider, $locationProvider, $provide, $compileProvider) {
     $routeProvider

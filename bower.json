@@ -7,12 +7,13 @@
     "./sources.json"
   ],
   "dependencies": {
+    "binartajs-angular1": "git@github.com:binarta/binartajs-angular1#cfi",
     "binarta.angularx": "v0.*.*",
     "binarta.autoupdater.angular": "0.*.*",
     "binarta.schedulers.angular": "0.*.*",
     "binarta.cookies.angular": "1.*.*",
     "binarta.journal.angular": "0.*.*",
-    "binarta.checkpoint.angular": "0.*.*",
+    "binarta.checkpoint.angular": "git@github.com:binarta/checkpoint.angular.js#cfi",
     "binarta.clerk.menu.angular": "1.*.*",
     "binarta.viewport.angular": "0.*.*",
     "binarta.config.rest.angular": "0.*.*",
@@ -28,5 +29,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "resolutions": {
+    "angular": "1.5.*",
+    "binarta.checkpoint.angular": "cfi"
+  }
 }

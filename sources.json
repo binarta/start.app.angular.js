@@ -1,5 +1,11 @@
 {
   "default": {
+    "binartajs-angular1": "bower_components/binartajs-angular1/src/binarta-angular.js",
+    "binarta-checkpointjs-angular1": "bower_components/binartajs-angular1/src/binarta-checkpoint-angular.js",
+    "binarta-checkpointjs-rest-angular1": "bower_components/binartajs-angular1/src/binarta-checkpoint-rest-angular.js",
+    "binarta-checkpointjs-recaptcha-angular1": "bower_components/binartajs-angular1/src/binarta-checkpoint-recaptcha-angular.js",
+    "binarta-checkpointjs-tpls-angular1": "bower_components/binartajs-angular1/src/binarta-checkpoint-tpls-bootstrap3-angular1.js",
+    "binarta-gateways": "bower_components/binarta.basic.app.angular/src/binarta-gateways.js",
     "basic.app": "bower_components/binarta.basic.app.angular/src/basic.app.js",
     "basic.app.templates": "bower_components/binarta.basic.app.angular/src/basic-app-tpls-bootstrap3.js"
   },
@@ -7,6 +13,7 @@
     "basic.app.templates": "bower_components/binarta.basic.app.angular/src/basic-app-catalog-tpls-bootstrap3.js"
   },
   "shop": {
+    "binarta-checkpointjs-tpls-angular1": "bower_components/binartajs-angular1/src/binarta-checkpoint-shop-tpls-bootstrap3-angular1.js",
     "basic.app.templates": "bower_components/binarta.basic.app.angular/src/basic-app-shop-tpls-bootstrap3.js"
   }
 }
