@@ -16,6 +16,7 @@ angular.module('basic.app', [
     'checkpoint.accounts',
     'checkpoint.keepalive',
     'checkpoint.templates',
+    'binarta-applicationjs-angular1',
     'binarta-checkpointjs-recaptcha-angular1',
     'binarta-checkpointjs-tpls-angular1',
     'binarta-gateways-angular1',

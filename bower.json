@@ -14,14 +14,14 @@
     "binarta.cookies.angular": "1.*.*",
     "binarta.journal.angular": "0.*.*",
     "binarta.checkpoint.angular": "git@github.com:binarta/checkpoint.angular.js#cfi",
-    "binarta.clerk.menu.angular": "1.*.*",
+    "binarta.clerk.menu.angular": "git@github.com:binarta/clerk.menu.angular.js#cfi",
     "binarta.viewport.angular": "0.*.*",
     "binarta.config.rest.angular": "0.*.*",
-    "binarta.i18n.angular": "1.*.*",
+    "binarta.i18n.angular": "git@github.com:binarta/i18n.angular.js#cfi",
     "binarta.i18n.sockjs.angular": "0.*.*",
     "binarta.sockjs.fallback.over.rest.angular": "0.*.*",
     "binarta.i18n.extension.tinymce.angular": "0.*.*",
-    "binarta.application.angular": "0.*.*"
+    "binarta.application.angular": "git@github.com:binarta/application.angular.js#cfi"
   },
   "ignore": [
     "**/.*",
@@ -32,6 +32,7 @@
   ],
   "resolutions": {
     "angular": "1.5.*",
-    "binarta.checkpoint.angular": "cfi"
+    "binarta.checkpoint.angular": "cfi",
+    "binarta.application.angular": "cfi"
   }
 }
