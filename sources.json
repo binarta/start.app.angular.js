@@ -1,6 +1,7 @@
 {
   "default": {
     "binartajs-angular1": "bower_components/binartajs-angular1/src/binarta-angular.js",
+    "binarta-alljs-tpls-angular1": "bower_components/binartajs-angular1/src/binarta-all-tpls-bootstrap3-angular1.js",
     "binarta-applicationjs-angular1": "bower_components/binartajs-angular1/src/binarta-application-angular.js",
     "binarta-applicationjs-rest-angular1": "bower_components/binartajs-angular1/src/binarta-application-rest-angular.js",
     "binarta-checkpointjs-angular1": "bower_components/binartajs-angular1/src/binarta-checkpoint-angular.js",

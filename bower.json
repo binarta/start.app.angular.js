@@ -7,21 +7,21 @@
     "./sources.json"
   ],
   "dependencies": {
-    "binartajs-angular1": "git@github.com:binarta/binartajs-angular1#cfi",
+    "binartajs-angular1": "1.*.*",
     "binarta.angularx": "v0.*.*",
     "binarta.autoupdater.angular": "0.*.*",
     "binarta.schedulers.angular": "0.*.*",
     "binarta.cookies.angular": "1.*.*",
     "binarta.journal.angular": "0.*.*",
-    "binarta.checkpoint.angular": "git@github.com:binarta/checkpoint.angular.js#cfi",
-    "binarta.clerk.menu.angular": "git@github.com:binarta/clerk.menu.angular.js#cfi",
+    "binarta.checkpoint.angular": "1.*.*",
+    "binarta.clerk.menu.angular": "2.*.*",
     "binarta.viewport.angular": "0.*.*",
     "binarta.config.rest.angular": "0.*.*",
-    "binarta.i18n.angular": "git@github.com:binarta/i18n.angular.js#cfi",
+    "binarta.i18n.angular": "2.*.*",
     "binarta.i18n.sockjs.angular": "0.*.*",
     "binarta.sockjs.fallback.over.rest.angular": "0.*.*",
     "binarta.i18n.extension.tinymce.angular": "0.*.*",
-    "binarta.application.angular": "git@github.com:binarta/application.angular.js#cfi"
+    "binarta.application.angular": "1.*.*"
   },
   "ignore": [
     "**/.*",
@@ -31,8 +31,6 @@
     "tests"
   ],
   "resolutions": {
-    "angular": "1.5.*",
-    "binarta.checkpoint.angular": "cfi",
-    "binarta.application.angular": "cfi"
+    "angular": "1.5.*"
   }
 }
