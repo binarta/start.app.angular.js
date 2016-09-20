@@ -20,7 +20,7 @@ angular.module('basic.app', [
     'binarta-applicationjs-angular1',
     'binarta-checkpointjs-recaptcha-angular1',
     'binarta-checkpointjs-tpls-angular1',
-    'binarta-gateways-angular1',
+    'binarta-cache-angular1',
     'application'
 ]).config(['$routeProvider', '$locationProvider', '$provide', '$compileProvider', function ($routeProvider, $locationProvider, $provide, $compileProvider) {
     $routeProvider

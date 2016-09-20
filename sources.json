@@ -9,6 +9,8 @@
     "binarta-checkpointjs-recaptcha-angular1": "bower_components/binartajs-angular1/src/binarta-checkpoint-recaptcha-angular.js",
     "binarta-checkpointjs-tpls-angular1": "bower_components/binartajs-angular1/src/binarta-checkpoint-tpls-bootstrap3-angular1.js",
     "binarta-gateways": "bower_components/binarta.basic.app.angular/src/binarta-gateways.js",
+    "binarta-config": "bower_components/binarta.basic.app.angular/src/binarta-config.js",
+    "binarta-cache": "bower_components/binarta.basic.app.angular/src/binarta-cache.js",
     "basic.app": "bower_components/binarta.basic.app.angular/src/basic.app.js",
     "basic.app.templates": "bower_components/binarta.basic.app.angular/src/basic-app-tpls-bootstrap3.js"
   },

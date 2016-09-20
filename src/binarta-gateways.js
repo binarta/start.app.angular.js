@@ -23,8 +23,6 @@
     }
 
     function IsInitialised($q, gatewaysAreInitialised, applicationGateway, checkpointGateway) {
-        $q.all(applicationGateway.promise, checkpointGateway.promise).then(function () {
-            gatewaysAreInitialised.resolve();
-        });
+        $q.all([applicationGateway.promise, checkpointGateway.promise]).then(gatewaysAreInitialised.resolve);
     }
 })();
