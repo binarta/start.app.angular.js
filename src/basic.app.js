@@ -21,7 +21,8 @@ angular.module('basic.app', [
     'binarta-checkpointjs-recaptcha-angular1',
     'binarta-checkpointjs-tpls-angular1',
     'binarta-cache-angular1',
-    'application'
+    'application',
+    'browser.info'
 ]).config(['$routeProvider', '$locationProvider', '$provide', '$compileProvider', function ($routeProvider, $locationProvider, $provide, $compileProvider) {
     $routeProvider
         .when('/site-settings', {templateUrl: 'basic-app-site-settings.html'})

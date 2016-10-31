@@ -20,7 +20,8 @@
     "binarta.i18n.angular": "2.*.*",
     "binarta.i18n.rest.angular": "1.*.*",
     "binarta.i18n.extension.tinymce.angular": "0.*.*",
-    "binarta.application.angular": "1.*.*"
+    "binarta.application.angular": "1.*.*",
+    "binarta.browser.info.angular": "0.*.*"
   },
   "ignore": [
     "**/.*",
