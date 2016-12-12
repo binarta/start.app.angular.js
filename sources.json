@@ -13,9 +13,6 @@
     "basic.app.templates": "bower_components/binarta.basic.app.angular/src/basic-app-shop-tpls-bootstrap3.js"
   },
   "e2e": {
-    "binarta-applicationjs-rest-angular1": "bower_components/binartajs-angular1/src/binarta-application-inmem-angular.js",
-    "binarta-checkpointjs-rest-angular1": "bower_components/binartajs-angular1/src/binarta-checkpoint-inmem-angular.js",
-    "binarta-inmem-gateways": "bower_components/binartajs/src/gateways.inmem.js",
     "binarta-gateways": "bower_components/binarta.basic.app.angular/src/binarta-gateways-inmem.js"
   }
 }
