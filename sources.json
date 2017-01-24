@@ -4,7 +4,11 @@
     "binarta-config": "bower_components/binarta.basic.app.angular/src/binarta-config.js",
     "binarta-cache": "bower_components/binarta.basic.app.angular/src/binarta-cache.js",
     "basic.app": "bower_components/binarta.basic.app.angular/src/basic.app.js",
+    "basic.app.location": "bower_components/binarta.basic.app.angular/src/basic.app.html4.js",
     "basic.app.templates": "bower_components/binarta.basic.app.angular/src/basic-app-tpls-bootstrap3.js"
+  },
+  "html5":{
+    "basic.app.location": "bower_components/binarta.basic.app.angular/src/basic.app.html5.js"
   },
   "catalog": {
     "basic.app.templates": "bower_components/binarta.basic.app.angular/src/basic-app-catalog-tpls-bootstrap3.js"

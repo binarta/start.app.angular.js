@@ -32,7 +32,6 @@ angular.module('basic.app', [
         $delegate.history = false;
         return $delegate;
     }]);
-    $locationProvider.html5Mode(false).hashPrefix('!');
     $compileProvider.debugInfoEnabled(window.debugInfoEnabled || false);
 }]).run(['schedule', 'autoupdater', '$cacheFactory', function (schedule, autoupdater, $cacheFactory) {
     schedule.forPeriod(autoupdater, 60000);
