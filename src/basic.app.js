@@ -3,7 +3,6 @@ angular.module('basic.app', [
     'ngSanitize',
     'ngTouch',
     'angularx',
-    'autoupdater',
     'schedulers',
     'cookies',
     'config.gateways',
@@ -33,8 +32,7 @@ angular.module('basic.app', [
         return $delegate;
     }]);
     $compileProvider.debugInfoEnabled(window.debugInfoEnabled || false);
-}]).run(['schedule', 'autoupdater', '$cacheFactory', function (schedule, autoupdater, $cacheFactory) {
-    schedule.forPeriod(autoupdater, 60000);
+}]).run(['schedule', '$cacheFactory', function (schedule, $cacheFactory) {
     schedule.forPeriod(function () {
         $cacheFactory.get('i18n').removeAll();
     }, 600000);

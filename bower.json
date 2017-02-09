@@ -9,7 +9,6 @@
   "dependencies": {
     "binartajs-angular1": "1.*.*",
     "binarta.angularx": "v0.*.*",
-    "binarta.autoupdater.angular": "0.*.*",
     "binarta.schedulers.angular": "0.*.*",
     "binarta.cookies.angular": "1.*.*",
     "binarta.journal.angular": "0.*.*",
