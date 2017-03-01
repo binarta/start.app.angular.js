@@ -3,6 +3,7 @@ angular.module('basic.app', [
     'ngSanitize',
     'ngTouch',
     'angularx',
+    'bootstrap.ex',
     'schedulers',
     'cookies',
     'config.gateways',
