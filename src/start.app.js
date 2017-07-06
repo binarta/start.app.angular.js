@@ -1,4 +1,4 @@
-angular.module('basic.app', [
+angular.module('start.app', [
     'ngRoute',
     'ngSanitize',
     'ngTouch',
@@ -25,8 +25,8 @@ angular.module('basic.app', [
     'browser.info'
 ]).config(['$routeProvider', '$locationProvider', '$provide', '$compileProvider', function ($routeProvider, $locationProvider, $provide, $compileProvider) {
     $routeProvider
-        .when('/site-settings', {templateUrl: 'basic-app-site-settings.html'})
-        .when('/:locale/site-settings', {templateUrl: 'basic-app-site-settings.html'});
+        .when('/site-settings', {templateUrl: 'start-app-site-settings.html'})
+        .when('/:locale/site-settings', {templateUrl: 'start-app-site-settings.html'});
     
     $compileProvider.debugInfoEnabled(window.debugInfoEnabled || false);
 }]).run(['schedule', '$cacheFactory', function (schedule, $cacheFactory) {

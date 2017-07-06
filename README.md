@@ -1,6 +1,6 @@
-# basic.app.angular.js
+# start.app.angular.js
 
-Container module for a basic [Binarta](http://binarta.com/) application.
+Container module for a start [Binarta](http://binarta.com/) application.
 
 ## Copyright and license
 

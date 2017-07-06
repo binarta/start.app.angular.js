@@ -1,11 +1,6 @@
 {
-  "name": "binarta.basic.app.angular",
-  "main": [
-    "./src/basic.app.js",
-    "./src/basic-app-tpls-bootstrap3.js",
-    "./metadata-system.json",
-    "./sources.json"
-  ],
+  "name": "binarta.start.app.angular",
+  "main": "./src/start.app.js",
   "dependencies": {
     "binartajs-angular1": "1.*.*",
     "binarta.angularx": "v0.*.*",
