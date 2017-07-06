@@ -1,22 +1,5 @@
 {
   "default": {
-    "binarta-gateways": "bower_components/binarta.start.app.angular/src/binarta-gateways.js",
-    "binarta-config": "bower_components/binarta.start.app.angular/src/binarta-config.js",
-    "binarta-cache": "bower_components/binarta.start.app.angular/src/binarta-cache.js",
-    "start.app": "bower_components/binarta.start.app.angular/src/start.app.js",
-    "start.app.location": "bower_components/binarta.start.app.angular/src/start.app.html4.js",
-    "start.app.templates": "bower_components/binarta.start.app.angular/src/start-app-tpls-bootstrap3.js"
-  },
-  "html5":{
-    "start.app.location": "bower_components/binarta.start.app.angular/src/start.app.html5.js"
-  },
-  "catalog": {
-    "start.app.templates": "bower_components/binarta.start.app.angular/src/start-app-catalog-tpls-bootstrap3.js"
-  },
-  "shop": {
-    "start.app.templates": "bower_components/binarta.start.app.angular/src/start-app-shop-tpls-bootstrap3.js"
-  },
-  "e2e": {
-    "binarta-gateways": "bower_components/binarta.start.app.angular/src/binarta-gateways-inmem.js"
+    "essential.app": "bower_components/binarta.start.app.angular/src/start.app.js"
   }
 }
