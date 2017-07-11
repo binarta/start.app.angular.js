@@ -3,7 +3,6 @@ angular.module('start.app', [
     'angularticsx.ga',
     'seo',
     'intercom',
-    'inspectlet',
     'image-management',
     'imagex.tinymce',
     'image.carousel',
