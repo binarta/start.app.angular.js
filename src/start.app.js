@@ -2,6 +2,7 @@ angular.module('start.app', [
     'basic.app',
     'angularticsx.ga',
     'seo',
+    'intercom',
     'image-management',
     'imagex.tinymce',
     'image.carousel',
